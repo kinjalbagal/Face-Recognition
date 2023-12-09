@@ -1,0 +1,19 @@
+1.open conda cmd (type anaconda cmd in search)
+2.type cd path of the folder where you have unzip downloaded folder(try to keep it on desktop to avoid path errors)
+eg: cd C:\Users\face_recognition (go till the last folder where all files are present)
+3.conda create -n face python=3.7 anaconda
+4.conda activate face
+5.type: pip install pip==20.0.2
+6.go to https://cmake.org/download/ and download Windows x64 Installer
+7.install the above installer
+8.set PATH="%PATH%;C:\Program Files\CMake\bin"
+9.close the command prompt and open again follow 2 and 4
+10.pip install opencv-contrib-python
+11.conda install -c conda-forge dlib
+press y if asked
+12.go here https://www.lfd.uci.edu/~gohlke/pythonlibs/#simpleaudio 13.download simpleaudio‑1.0.4‑cp37‑cp37m‑win_amd64.whl
+14.copy that file n paste it in our project folder(where remaining files are present)
+15.pip install simpleaudio‑1.0.4‑cp37‑cp37m‑win_amd64.whl
+16.pip install -r requirements.txt
+17.pip install tensorflow
+18.python final.py

@@ -1,0 +1,13 @@
+
+mxnet-mkl
+insightface==0.1.5
+object-detection-0.1
+beepy
+imutils
+face-recognition==1.2.3
+argparse==1.1
+pickle-mixin
+opencv-python==4.1.1.26
+DateTime
+mtcnn
+scikit-learn==0.20.3
